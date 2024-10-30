@@ -8,8 +8,8 @@ targetScope = 'subscription'
 @description('Rg for storage account, service bus, cosmos db & function app. Value is passed from GHA variable.')
 param rgName string
 
-@minLength(3)
-@maxLength(6)
+@minLength(2)
+@maxLength(7)
 @description('A unique environment suffix (max 6 characters, alphanumeric only).')
 param suffix string
 
